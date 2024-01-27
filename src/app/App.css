@@ -13,6 +13,8 @@
   top: 0;
   right: 0;
   background: #EEEDEB;
+  overflow-y: auto;
+  z-index: 1200;
 }
 
 .btn-toggle[aria-expanded="true"]::before {

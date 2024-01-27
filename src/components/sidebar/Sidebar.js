@@ -1,14 +1,14 @@
-
+import { IoLibrary } from "react-icons/io5";
 
 const Sidebar = () => {
     
     return (
         <div className="flex-shrink-0 p-3 my_sidebar">
             <a href="/" className="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
-                <i className="bi bi-boxes"></i>
-                <span className="fs-5 fw-semibold">Dev Alma Mater</span>
+                <IoLibrary size={24} color="#864AF9" />
+                <span className="fs-5 fw-semibold ms-2">Dev Alma Mater</span>
             </a>
-            <ul className="list-unstyled ps-0 ">
+            <ul className="list-unstyled ps-0">
                 <li className="my-2 py-1">
                     <button className="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
                     Home
